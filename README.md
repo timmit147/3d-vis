@@ -1,46 +1,45 @@
-# CSS to the Rescue @cmda-minor-web 2021 - 2022
+# 3d vis 2021 - 2022
 
-Wij vinden het web fascinerend. De laatste jaren is CSS een volwassen en zeer krachtige taal geworden (niet langer een bottleneck - integendeel). Veel van de (nieuwe) **CSS-lekkernijen** worden echter nog niet ten volle benut. Sommige delen van de spec worden onterecht (nog) niet bemind, andere delen zijn zo groot en complex dat we mogelijkheden nog niet hebben doorgrond. Aan jou de mooie opdracht om de onontgonnen delen van de CSS-wereld in kaart te brengen.
+Ik heb voor de eindopdracht een 3d vis gemaakt.
 
-**In dit vierweekse vak ga je experimenteren met (voor jou) nieuwe CSS technieken - om daarna/mee een innovatieve, experimentele én aangename ervaring te creëren - met alleen vanilla HTML en vanilla CSS (frameworks, preprocessors, libraries en JavaScript zijn niet toegestaan).**
+## Week 1 
+Introductie week
 
-Goed om te weten: Het experiment wordt gewaardeerd - zelfs/zeker als het niet (helemaal) lukt. Voel je vrij om verder te gaan dan de CSS-technieken die je al beheerst.
-
-## Dingen om vooraf te doen
-- 🔱 **Fork** deze repository.
-- ✅ [**Enroll** je voor de minor via de courselector](https://icthva.sharepoint.com/sites/courseselector#/CourseSelector/web-design-and-development/2021-2022) (dan kun je je werk straks ook op [DLO](https://dlo.mijnhva.nl/d2l/home/324147) opleveren).
-- 📒 **Bekijk** het [programma](https://cmda-minor-web.github.io/css-to-the-rescue-2122/files/CSSttR-2122-Kick-off.pdf) (pdf 48MB), [het quizje](https://cmda-minor-web.github.io/css-to-the-rescue-2122/files/CSSttR-2122-Quizje.pdf) (pdf 2MB) en de [kennismakingsoefening](https://cmda-minor-web.github.io/css-to-the-rescue-2122/docs/oefening.html) alvast even.
-
-## Opdrachten
-Het vak bestaat uit:
-- [Een kennismakingsoefening](https://cmda-minor-web.github.io/css-to-the-rescue-2122/oefening.html)
-- [De eindopdracht](https://cmda-minor-web.github.io/css-to-the-rescue-2122/index.html)
-
-De [beoordelingscriteria voor de eindopdracht](https://cmda-minor-web.github.io/css-to-the-rescue-2122/beoordelingsformulier.html) op een rijte.
-
-## Themasessies
-Schrijf je in het [CSSttR channel](https://teams.microsoft.com/l/channel/19%3a1261f148f4a14a788c98784a96d361c4%40thread.tacv2/03%2520-%2520CSS%2520to%2520the%2520Rescue?groupId=36b2af3f-d616-4e89-b714-f45196f2a6ad&tenantId=0907bb1e-21fc-476f-8843-02d09ceb59a7) bij 'Files' in de 'Indeling en Planning' Excel in voor zowel woensdag als donderdag in voor een themasessie naar je keuze (1 per dag):
-- [Materiaal voor de themasessies](https://cmda-minor-web.github.io/css-to-the-rescue-2122/themas.html)
-
-## Programma
-Het vak beslaat 4 weken. Bekijk de [kick-off presentatie](https://cmda-minor-web.github.io/css-to-the-rescue-2122/files/CSSttR-2122-Kick-off.pdf) (pdf 48MB). 
-
-In Teams vind je het [CSSttR channel](https://teams.microsoft.com/l/channel/19%3a1261f148f4a14a788c98784a96d361c4%40thread.tacv2/03%2520-%2520CSS%2520to%2520the%2520Rescue?groupId=36b2af3f-d616-4e89-b714-f45196f2a6ad&tenantId=0907bb1e-21fc-476f-8843-02d09ceb59a7) bij 'Files' de Excel met de 'Indeling en Planning'. Daar schrijf je je ook in voor themasessies en het eindgesprek.
-
-Colleges, lessen en gesprekken vinden plaats in het TTH (4e verdieping :-).
-
-## Docenten
-- Vasilis van Gemert
-- Sanne 't Hooft
-
-## Leerdoelen
-- Je kunt experimenteren met (voor jou) nieuwe css-technieken - om de mogelijkheden op waarde te schatten en te gebruiken waar gepast.
-- Je hebt begrip van de volle kracht en mogelijkheden van CSS. Je laat zien dat CSS meer kan dan allen web pages 'stylen'.
-- Je hebt begrip van de interactie-technieken van CSS (en HTML). De UX is aangenaam bruikbaar binnen de gekozen context(en).
-- Je hebt begrip hoe progressive enhancement elegant toe te passen. Je laat zien dat je cascade, inheritance en specificity kunt toepassen.
+## Week 2
 
 
-## De Selector First CSS & No JS aanpak
-Het **eerste uitgangspunt** is dat je *geen* ID's en classes gebruikt. Niet omdat ze niet nuttig zijn, maar om te oefenen met de [vele CSS selectoren](https://css-tricks.com/almanac/) die je tot je beschikking hebt. ID's mag je alleen gebruiken om de :target selector te triggeren en uiteraard om labels te koppelen aan inputs. En als het echt echt echt niet anders kan, heb je permissie om een enkele class toe te voegen.
+Ik begonnen vand een 3d cube dat kan bewegen naar links en recht wanneer je muis naar links of rechts verplaatst.
+![image](https://user-images.githubusercontent.com/29665951/156649534-7095c6b5-f297-491d-b260-f35b36929d2b.png)
 
-Een **tweede uitgangspunt** is dat je *geen* JavaScript gebruikt. Als iets niet kan met CSS, dan zal je iets anders moeten verzinnen om te maken. We onderzoeken de mogelijkheden van CSS in dit vak, en niet die van JS.
+
+Ik heb de vis 3d ogen gegeven.
+
+![image](https://user-images.githubusercontent.com/29665951/156651221-93ba8372-1904-4996-8ed9-fe1ae7587211.png)
+
+Toegevoegd van een 3d fin die beweegt met een animatie.
+
+![image](https://user-images.githubusercontent.com/29665951/156651037-910ae166-1b98-4aed-b32e-f50c8a398176.png)
+
+## Week 3
+
+Ik heb een achtergrond gradient gemaakt die animeerd naar rechts en wanneer je muis aan de linker kant van het scherm plaatst de animatie omdraaid.
+
+![image](https://user-images.githubusercontent.com/29665951/156651824-b5621d5a-d327-4859-9f19-105a55cb7376.png)
+
+Ik heb een duikboot gemaakt waarbij ik probeerden dat als je naar rechts gaat met de vis je de duikboot voorbij gaat en naar links de duikboot je inhaald. Dit is helaas niet gelukt omdat je een animatie niet kan opdraaien.
+
+![image](https://user-images.githubusercontent.com/29665951/156656499-8898996b-8dc6-482c-8410-e4e3bfffca28.png)
+
+Ik heb de grond van de ocean gemaakt die de de tegenovergestelde richting gaat van dat de vis heen gaat.
+
+![image](https://user-images.githubusercontent.com/29665951/156656538-4cd6cad9-bd3d-450e-a253-1ade0011d612.png)
+
+Ik heb een vis haak in 3d gemaakt dat achter of voor 3d objecten kan heen slingeren.
+
+![image](https://user-images.githubusercontent.com/29665951/156656736-c35c0737-d29f-4231-bfda-b5d8d615d212.png)
+
+Ik heb met text en text wrap geprobeerd na te bootsen hoe bubbels niet door maar langs de vis een gaat. Ik heb dit uiteindelijk verwijdert omdat dit niet responsive goed werkten.
+
+![image](https://user-images.githubusercontent.com/29665951/156657326-95f32d72-192b-427a-b9f3-bd84569145b0.png)
+
+
