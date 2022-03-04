@@ -1,3 +1,20 @@
+/* Fonts */
+@font-face {
+    font-family: "Azureon";
+    src: url("https://yoursite.com/css/fonts/CustomFont.eot");
+    src: url("https://yoursite.com/css/fonts/CustomFont.woff") format("woff"),
+    url("https://yoursite.com/css/fonts/CustomFont.otf") format("opentype"),
+    url("https://yoursite.com/css/fonts/CustomFont.svg#filename") format("svg");
+    }
+
+/* CSS custom properties */
+:root {
+    --vis: #CFE4E5;
+    --duikboot: #FFFFFF;
+    --ramenduikboot: #193238;
+    --ogen: #4497A4;
+    --gront: #193238;
+  }
 
 *{
 	padding:0px;
@@ -7,16 +24,37 @@
 
 /* Standaard achtergrond blauw als gradient niet werkt */
 html{
-	background-color:rgba(9,9,121,1);
+	background-color:#4497A4;
+    font-family: 'CustomFont', Arial, sans-serif;
+    font-weight:bold;
+    font-style:normal;
 }
 
-body > ul{
-	list-style-type: none;
-	display: flex;
-	height: 100%;
-	position: absolute;
+/* body:before {
+    content: '';
+    z-index: 5;
+    background-color: white;
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    -webkit-filter: blur(10px);
+    opacity: 0.3;
+    pointer-events: none;
+  } */
+
+  body > ul {
+    list-style-type: none;
+    display: flex;
+    height: 60vh;
+    position: absolute;
     transform-style: preserve-3d;
     overflow: hidden;
+    left: 20px;
+    right: 20px;
+    bottom: 20px;
+    top: 34vh;
 }
 
 body > ul li:nth-child(-n+3){
@@ -54,44 +92,44 @@ body > ul li:nth-of-type(4) section:nth-child(1) div{
 /* Voorkant lichaam */
 body > ul li:nth-of-type(4) section:nth-child(1) div:nth-child(1) { 
 	transform: rotateY(  0deg) translateZ(25px); 
-	background-color: red;
+	background-color: var(--vis);
 }
 
 /* Rechterkant lichaam */
 body > ul li:nth-of-type(4) section:nth-child(1) div:nth-child(2){
 	transform: rotateY( 90deg) translateZ(25px);
-	background-color: blue;
+	background-color: var(--vis);
 }
 
 /* Achterkant lichaam */
 body > ul li:nth-of-type(4) section:nth-child(1) div:nth-child(3){
 	transform: rotateY(180deg) translateZ(25px);
-	background-color: green;
+	background-color: var(--vis);
 }
 
 /* linkerkant lichaam */
 body > ul li:nth-of-type(4) section:nth-child(1) div:nth-child(4){
 	transform: rotateY(-90deg) translateZ(25px);
-	background-color: yellow;
+	background-color: var(--vis);
 }
 
 /* Onderkant lichaam */
 body > ul li:nth-of-type(4) section:nth-child(1) div:nth-child(5){
 	transform: rotateX( 90deg) translateZ(25px);
-	background-color: orange;
+	background-color: var(--vis);
 }
 
 /* Bovenkant lichaam */
 body > ul li:nth-of-type(4) section:nth-child(1) div:nth-child(6){
 	transform: rotateX(-90deg) translateZ(25px);
-	background-color: white;
+	background-color: var(--vis);
 }
 
 
 /* fin */
 body > ul li:nth-of-type(4) section:nth-child(2){
-    background: rgb(3,36,0);
-    background: linear-gradient(90deg, rgba(3,36,0,1) 0%, rgba(9,121,48,1) 35%, rgba(9,255,0,1) 100%);
+    background: #2D575D;
+    background: linear-gradient(90deg, #193238 0%, #2D575D 35%, #A0C9CB 100%);
     position: absolute;
 	transform-style: preserve-3d;
     width: 100%;
@@ -150,7 +188,7 @@ body > ul li:nth-of-type(4) section:nth-child(3) > div:nth-child(2) > div {
   width: 100%;
   height: 100%;
   border-radius: 50%;
-  background: rgba(204,0,102, 1);
+  background: var(--ogen);
   animation:  eyes  1s infinite;
 }
 
@@ -160,7 +198,7 @@ body > ul li:nth-of-type(4) section:nth-child(3) > div:nth-child(1) > div {
   width: 100%;
   height: 100%;
   border-radius: 50%;
-  background: rgba(204,0,102, 1);
+  background: var(--ogen);
   animation:  eyes  5s infinite;
 }
 
@@ -226,7 +264,7 @@ body > ul li:last-child{
 	width :100vw;
 	height :100vh;
 	position:fixed;
-	background: repeating-linear-gradient(90deg, rgba(2,0,36,1),rgba(9,9,121,1),rgba(0,212,255,1),rgba(2,0,36,1));
+	background: linear-gradient(90deg, rgba(84,119,115,1) 0%, rgba(165,191,190,1) 25%, rgba(122,153,147,1) 50%, rgba(214,230,201,1) 75%, rgba(84,119,115,1) 90%);
 	background-repeat:repeat-x;
 	background-size: 400% 100%;
 	animation:  ocean  10s linear  infinite normal;
@@ -275,14 +313,14 @@ body > ul li:nth-of-type(5){
 body > ul li:nth-of-type(5) > div:nth-child(1) {
 	width: 100px;
 	height :70px;
-    background-color: red;
+    background-color: var(--vis);;
     border-radius: 10px;
 	position:absolute;
 }
 
 /* Raam 1 duikboot */
 body > ul li:nth-of-type(5) > div:nth-child(2) {
-	background-color: black;
+	background-color: #23444A;
     z-index: 1;
     position: absolute;
     border-radius: 50%;
@@ -294,7 +332,7 @@ body > ul li:nth-of-type(5) > div:nth-child(2) {
 
 /* Raam 2 duikboot */
 body > ul li:nth-of-type(5) > div:nth-child(3) {
-	background-color: black;
+	background-color: #23444A;
     z-index: 1;
     position: absolute;
     border-radius: 50%;
@@ -306,7 +344,7 @@ body > ul li:nth-of-type(5) > div:nth-child(3) {
 
 /* Raam 3 duikboot */
 body > ul li:nth-of-type(5) > div:nth-child(4) {
-	background-color: black;
+	background-color: #23444A;
     z-index: 1;
     position: absolute;
     border-radius: 50%;
@@ -318,7 +356,7 @@ body > ul li:nth-of-type(5) > div:nth-child(4) {
 
 /* Verander raamen van kleur */
 body > ul li:nth-of-type(5) > div:nth-child(1n+2):hover{
-	background-color:yellow;
+	background-color:var(--ramenduikboot);;
 }
 
 /* Beweeg duikboot van rechts naar links */
@@ -339,7 +377,7 @@ to{
 
 /* Begin grond */
 body > ul li:nth-of-type(6){
-    background-color: rgb(107, 57, 17);
+    background-color: var(--gront);;
     width: 101vw;
     height: 300px;
     clip-path: polygon(61% 76%, 51% 80%, 34% 79%, 27% 85%, 18% 77%, 12% 83%, 0% 77%, 0% 100%, 100% 100%, 100% 77%, 91% 85%, 87% 79%, 77% 77%, 71% 84%); 
@@ -354,7 +392,7 @@ body > ul li:nth-of-type(6){
 /* Einde grond */
 body > ul li:nth-of-type(7){
     content: "";
-    background-color: rgb(107, 57, 17);
+    background-color: var(--gront);;
     width: 100vw;
     height: 300px;
     left: 100vw;
@@ -408,14 +446,14 @@ body > ul li:nth-of-type(9) section div{
 position: absolute;
 width: 50px;
 height: 50px;
-background-color: black;
+background-color: #23444A;
 }
 
 
 
 body > ul li:nth-of-type(9) section:nth-child(1) div:nth-child(1) {
     transform: rotateY( 0deg) translateZ(25px);
-    height: 600px;
+    height: 50vh;
     width: 23px;
     clip-path: polygon(38% 96%, 100% 94%, 38% 98%, 0 95%, 0 0, 5% 0, 4% 90%);
 }
@@ -458,3 +496,169 @@ padding-left: 0px;
     from {    padding-left: 0px;}
     to {    padding-left: 10px;}
 }
+
+
+
+
+
+
+/* Layout styling */
+
+
+body ol {
+    width: 100vw;
+    height: 100vh;
+    display: grid; 
+  grid-template-columns: 1fr; 
+  grid-template-rows: 1fr 1fr 1fr; 
+  /* gap: 0px 0px;  */
+  grid-template-areas: 
+  "bb"
+  "aa"
+  "aa"; 
+
+}
+
+
+ol li:nth-child(1) { 
+    grid-area: aa; 
+    margin: 20px;
+}
+
+ol li:nth-child(2){ 
+    grid-area: bb; 
+    background-color: #2D575D;
+    margin: 20px;
+    position: relative;
+}
+
+ol li:nth-child(2) label{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    align-items: center;
+    column-gap: 20px;
+    font-size: 3em;
+    color: #97ABAE;
+    padding-bottom: 10px;
+    border-bottom: 3px solid;
+}
+
+ol li:nth-child(2) input[type=checkbox]{ 
+    width: 80px;
+    height: 80px;
+    background-color: #397881;
+    border-radius: 50%;
+    vertical-align: middle;
+    border: 10px solid #96ABAE;
+    appearance: none;
+    -webkit-appearance: none;
+    outline: none;
+    cursor: pointer;
+    transition: all 0.1s;
+    column-gap: 10px;
+}
+
+
+
+ol li:nth-child(2) input[type=checkbox]:checked{
+    border: 13px #96ABAE solid;
+    
+}
+
+ol li:nth-child(3) { 
+    grid-area: cc; 
+    background-color: #A0CACC;
+    margin: 20px;
+    display: none;
+}
+
+ol li:nth-child(4) { 
+    grid-area: dd; 
+    background-color: #A0CACC;
+    margin: 20px;
+    display: none;
+}
+
+ol li:nth-child(5),ol li:nth-child(6),ol li:nth-child(7),ol li:nth-child(8)  {
+    width: 20vw;
+    height: 20vw;
+    position: fixed;
+    background: linear-gradient(to bottom right, #fff0 0%, #fff0 50%, #4497A4 50%, #4497A4 100%);
+    transform: rotate(180deg);
+}
+
+ol li:nth-child(5):before, ol li:nth-child(6):before, ol li:nth-child(7):before, ol li:nth-child(8):before  {
+    content: "";
+    width: 20vw;
+    height: 20vw;
+    position: fixed;
+    left: 20px;
+    top: 0;
+    background: linear-gradient(to bottom right, #fff0 0%, #fff0 50%, #193238 50%, #193238 100%);
+}
+
+ol li:nth-child(5):after, ol li:nth-child(6):after, ol li:nth-child(7):after, ol li:nth-child(8):after  {
+    content: "+";
+    width: 5vw;
+    height: 5vw;
+    left: 70%;
+    top: 70%;
+    position: absolute;
+    background-color: #5C5F60;
+    border-radius: 50%;
+    display: flex;
+    place-content: center;
+    place-items: center;
+    font-size: 4.8vw;
+    color: #152F35;
+}
+
+ol li:nth-child(5) {
+    left: 0;
+    top: 0;
+}
+
+
+ol li:nth-child(6) {
+    transform: rotate(270deg);
+    right: 0;
+    top: 0;
+}
+
+ol li:nth-child(7) {
+    transform: rotate(90deg);
+    left: 0;
+    bottom: 0;
+}
+
+ol li:nth-child(8) {
+    transform: rotate(0deg);
+    right: 0;
+    bottom: 0;
+}
+
+
+
+
+
+@media only screen and (min-width: 600px) {
+    body ol {
+        grid-template-columns: 1fr 1fr 1fr; 
+        grid-template-rows: 1fr 1fr 1fr; 
+        grid-template-areas: 
+        "cc bb dd"
+        "aa aa aa"
+        "aa aa aa"; 
+    }
+    ol li:nth-child(3) { 
+        display: block;
+    }
+    ol li:nth-child(4) { 
+        display: block;
+    }
+}
+
+
