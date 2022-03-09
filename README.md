@@ -77,5 +77,15 @@ Als laatste heb ik nog tekst en borders toegevoed om het af te maken.
 
 ![image](https://user-images.githubusercontent.com/29665951/157459397-6b847a3f-1217-4627-9aff-92b665ab79c2.png)
 
+## Bronnen
+
+House, C. (2022, 8 maart). A Complete Guide to Grid. CSS-Tricks. Geraadpleegd op 9 maart 2022, van https://css-tricks.com/snippets/css/complete-guide-grid/
+
+@keyframes - CSS: Cascading Style Sheets | MDN. (2021, 13 augustus). Keyframes. Geraadpleegd op 9 maart 2022, van https://developer.mozilla.org/en-US/docs/Web/CSS/@keyframes
+
+How can I create pure CSS 3-dimensional spheres? (2017, 21 juli). Stack Overflow. Geraadpleegd op 9 maart 2022, van https://stackoverflow.com/questions/45238194/how-can-i-create-pure-css-3-dimensional-spheres
+
+Attention Required! | Cloudflare. (z.d.). Stopwatch. Geraadpleegd op 9 maart 2022, van https://codepen.io/Zohir/pen/bxzZwM
+
 
 
