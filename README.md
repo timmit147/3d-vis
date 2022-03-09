@@ -1,6 +1,6 @@
 # 3d vis 2021 - 2022
 
-Ik heb voor de eindopdracht een 3d vis gemaakt.
+Ik heb voor de eindopdracht een interactieve 3d vis gemaakt waarbij de omgeving verandert op basis van waar je muis staat.
 
 ## Week 1 
 Introductie week
