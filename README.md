@@ -56,4 +56,22 @@ Ik heb met text en text wrap geprobeerd na te bootsen hoe bubbels niet door maar
 
 ![image](https://user-images.githubusercontent.com/29665951/156657326-95f32d72-192b-427a-b9f3-bd84569145b0.png)
 
+## Week 4 (Style aanpassen)
+
+Ik kreeg feedback dat ik de stijl van de vis nog moest aanpassen naar een bestaand voorbeeld. Ik heb gekozen voor het onderstaande voorbeeld omdat de style overeenkomt met een ocean.
+
+![tumblr_nd3kugPMmZ1r6fy85o1_1280 (1)](https://user-images.githubusercontent.com/29665951/157439507-210f2507-b995-45c4-a9f6-8f19fc1bd30a.png)
+
+Ik heb gekozen om 1 knop te maken dat wanneer je klikt de haak naar boven gaat. 
+
+![image](https://user-images.githubusercontent.com/29665951/157440282-3f03e441-2a6f-401b-8fa7-11f71e525c39.png)
+
+
+Ik heb de website ook responsive gemaakt in verschillende formaten.
+
+![image](https://user-images.githubusercontent.com/29665951/157440523-d4671305-70b3-4cba-a705-43fd3a1f405e.png)
+
+![image](https://user-images.githubusercontent.com/29665951/157440640-d1db2eef-5945-448f-850c-3b92c62aef11.png)
+
+
 
